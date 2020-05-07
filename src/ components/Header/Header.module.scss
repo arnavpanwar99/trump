@@ -1,0 +1,34 @@
+@import "./../../sass/variables";
+
+.head{
+    position: fixed;
+    top: 0;
+    background-color: $mint;
+    display: flex;
+    width: 100%;
+    filter: drop-shadow(0 2vmin 10px rgba(black, 0.3));
+    max-width: 100%;
+    justify-content: space-between;
+    // font-family: 'Alegreya', serif;
+    // font-family: 'Alegreya Sans SC', sans-serif;
+    &_heading{
+        font-size: 1.5rem;
+        margin: 1rem 2rem;
+        &_one{
+            font-family: 'Raleway', serif;
+            font-weight: 900;
+        }
+        &_two{
+            font-size: 2.5rem;
+            font-family: 'Alegreya Sans SC', sans-serif;
+        }
+    }
+    &_visit{
+        font-size: 1rem;
+        border-radius: .25rem;
+        margin: auto 1.75rem;
+        color: white;
+        background-color: $slate;
+        padding: .75rem;
+    }
+}
