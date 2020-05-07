@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-#secret
-/firebaseConfig
+#firebase
+*firebaseConfig
 
 # production
 /build
