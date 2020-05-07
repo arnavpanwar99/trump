@@ -9,7 +9,7 @@
 /coverage
 
 #secret
-/src/firebaseConfig
+/firebaseConfig
 
 # production
 /build
