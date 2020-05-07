@@ -85,7 +85,7 @@ const Welcome = () => {
     }
 
     const isIos = () => JSON.stringify(navigator.userAgent).includes('iPhone');
-
+    
     const copyToClipboard = (text) => {
         const textArea = createTextArea(text);
         selectText(textArea);
